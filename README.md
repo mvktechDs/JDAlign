@@ -1,8 +1,8 @@
-# RoleFit AI — AI Resume × Job Description Analyzer
+# JDAlign — AI Resume × Job Description Analyzer
 
 > **Privacy-conscious, 100% explainable AI resume match scoring engine built as a single Next.js full-stack application with ₹0 infrastructure cost.**
 
-![RoleFit AI Preview](./public/preview.png)
+![JDAlign Preview](./public/preview.png)
 
 ---
 
@@ -110,7 +110,7 @@ If a job description **omits** education or explicit minimum experience requirem
 ## 📁 Folder Structure
 
 ```
-rolefit-ai/
+JDAlign/
 ├── app/
 │   ├── page.tsx               # Modern SaaS Landing Page
 │   ├── analyze/
@@ -163,8 +163,8 @@ rolefit-ai/
 ### Step-by-Step Instructions
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/rolefit-ai.git
-   cd rolefit-ai
+   git clone https://github.com/mvktechDs/JDAlign.git
+   cd JDAlign
    ```
 
 2. **Install dependencies**:
@@ -186,7 +186,7 @@ rolefit-ai/
    ANALYSIS_RATE_LIMIT_WINDOW_MINUTES=15
    ANALYSIS_RATE_LIMIT_MAX=10
    AI_TIMEOUT_MS=25000
-   NEXT_PUBLIC_APP_NAME=RoleFit AI
+   NEXT_PUBLIC_APP_NAME=JDAlign
    ```
 
 4. **Run the development server**:
@@ -238,7 +238,7 @@ npm run test:e2e
 
 ## 🔮 Future Commercial Scaling Roadmap
 
-If RoleFit AI evolves into a commercial enterprise SaaS, the stateless V1 architecture can scale to the following infrastructure:
+If JDAlign evolves into a commercial enterprise SaaS, the stateless V1 architecture can scale to the following infrastructure:
 
 ```mermaid
 flowchart LR

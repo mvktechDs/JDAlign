@@ -1,5 +1,5 @@
 /**
- * Safe structured logger for RoleFit AI server events.
+ * Safe structured logger for JDAlign server events.
  * STRICT SECURITY REQUIREMENT: Never log raw resume, JD text, PII, or API keys.
  */
 export interface SafeLogMeta {

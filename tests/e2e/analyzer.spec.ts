@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test.describe("RoleFit AI E2E Comprehensive Suite", () => {
+test.describe("JDAlign E2E Comprehensive Suite", () => {
   test.beforeEach(async ({ page }) => {
     // Navigate to homepage before each test
     await page.goto("/");
@@ -55,6 +55,6 @@ test.describe("RoleFit AI E2E Comprehensive Suite", () => {
     await expect(page.locator("h1")).toContainText("Privacy Policy & Disclosures");
 
     await page.goto("/about");
-    await expect(page.locator("h1")).toContainText("About RoleFit AI");
+    await expect(page.locator("h1")).toContainText("About JDAlign");
   });
 });

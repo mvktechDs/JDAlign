@@ -1,5 +1,5 @@
 /**
- * In-memory rate limiting implementation for RoleFit AI.
+ * In-memory rate limiting implementation for JDAlign.
  * Note: Serverless environments (like Vercel functions) instantiate multiple ephemeral container instances.
  * This in-memory limiter provides best-effort protection per instance.
  * For production scale-up, replace this abstraction with Redis / Upstash.
